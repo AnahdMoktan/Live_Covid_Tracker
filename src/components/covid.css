@@ -1,0 +1,44 @@
+body{
+    background-color: cyan;
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+.card{
+    background-color:darkorchid;
+    width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+}
+p{
+    color: azure;
+}
+.card:hover{
+    transform:scale(1.1);
+    color: rgb(188, 8, 92);
+    background-color: blue;
+} 
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.card__name span {
+    font-size: 15px;
+}
+.card__total {
+    padding-left: 60px;
+    font-size: 260%;
+    font-weight: bold;
+}
